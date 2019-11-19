@@ -6,6 +6,8 @@ Run a Dash app with a docker image on AWS ECS.
 
 This is a basic Dash app that pulls two images from http://picsum.photos, displays a graph, and echoes input to an output div. 
 
+It uses the very small python:3.7-alpine image which is less than 100MB compared to python:3.7 which is 700MB+. 
+
 ![App Demo](example.gif)
 
 More detail at this excellent tutorial: https://linuxacademy.com/blog/linux-academy/deploying-a-containerized-flask-application-with-aws-ecs-and-docker/
